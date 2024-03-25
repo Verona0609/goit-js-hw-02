@@ -1,9 +1,9 @@
  function formatMessage(message, maxLength){
    if(message.length<= maxLength){
     return message;
-   } else if(message.length>maxLength){
+   } else {
     const str=message.slice(0,maxLength);
-    return `${str} ...`;
+    return `${str}...`;
 
    }
 
